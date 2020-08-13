@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
+import 'tachyons'; // ievietojam css stilu paku, pirmstam uzinstalē izmntojot - npm install tachyons
 
 ReactDOM.render(
   <React.StrictMode>

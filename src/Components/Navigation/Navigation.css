@@ -1,0 +1,8 @@
+.Sign-out {  /* clase tiek attēlota augšā labajā stūrī */
+    display: flex;                       
+    justify-content: flex-end; 
+
+}
+.bottom-sign {
+    background-color: rgba(231, 161, 56, 0.685);
+}

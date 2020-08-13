@@ -1,13 +1,15 @@
+/*Visi css stili, kas tiek ievietoti index.css tiek uzskatīti par galveno un attiecas uz visiem failiem, 
+bet ja nepieciešamas idividuāls dizains kādam no elementiem veido tam atsevišķu css*/
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Courier New', Courier, monospace;
+  background: linear-gradient(to left, rgb(236, 77, 9), rgb(225, 177, 45)); /* Izmainu fona toni*/
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+button {
+  cursor: pointer;
 }
